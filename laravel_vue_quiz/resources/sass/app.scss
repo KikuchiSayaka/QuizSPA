@@ -1,0 +1,16 @@
+// Bootstrap3をインポート
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+//fontawsomeを読み込み
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+//各テンプレ化したCSSをインポート
+@import "setting/variables";
+@import "setting/media";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/layout";
+@import "module/button";
+@import "module/sidebar";
+@import "pages/home";
+@import "pages/quiz";

@@ -1,0 +1,270 @@
+@import url(/Users/saya/Documents/laravel_SPA/vue_hello/node_modules/bootstrap/dist/css/bootstrap.min.css);
+header {
+  margin-top: -10px;
+  background: #fff;
+}
+
+header h1 {
+  font-size: 12px;
+  margin: 10px;
+}
+
+header .navbar-brand {
+  color: #fff;
+}
+
+header .navbar {
+  background: #6f7882;
+  border-color: #6f7882;
+}
+
+header .header-nav__logo {
+  width: 200px;
+  margin-top: -15px;
+}
+
+header #header-nav__home {
+  color: #fff;
+}
+
+header #header-nav__login {
+  color: #fff;
+}
+
+header #header-nav__register {
+  color: #fff;
+}
+
+footer {
+  background: #6f7882;
+  padding: 30px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+}
+
+@font-face {
+  font-family: "NasuM-Regular";
+  src: url(../../fonts/NasuM-Regular.ttf);
+}
+
+body {
+  font-family: NasuM-Regular, sans-serif;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+main {
+  margin-top: -22px;
+  padding-top: 20px;
+  background: #C2CBD3;
+  padding-bottom: 50px;
+  min-height: 1000px;
+}
+
+article {
+  border: solid #C2CBD3;
+  background: #fff;
+  width: 60%;
+}
+
+@media (min-width: 992px) {
+  .col-md-8 {
+    width: 60%;
+  }
+  .col-md-4 {
+    width: 37%;
+  }
+}
+
+.fa-twitter {
+  color: #00aced;
+}
+
+.twitter__share {
+  border-radius: 5px;
+  border: solid 0.5px #00aced;
+  padding: 3px;
+  margin-bottom: 5px;
+}
+
+.fa-facebook {
+  color: #3B5998;
+}
+
+.facebook__share {
+  border-radius: 5px;
+  border: solid 0.5px #3B5998;
+  padding: 3px;
+  margin-bottom: 5px;
+}
+
+.fa-line {
+  color: #00B900;
+}
+
+.line__share {
+  border-radius: 5px;
+  border: solid 0.5px #00B900;
+  padding: 3px;
+  margin-bottom: 5px;
+}
+
+.fa-google {
+  color: #DD5144;
+}
+
+.google__share {
+  border-radius: 5px;
+  border: solid 0.5px #DD5144;
+  padding: 3px;
+  margin-bottom: 5px;
+}
+
+.sidebar-sns-section {
+  background: #fff;
+}
+
+.sidebar-sns-h3 {
+  background: #a3c0da;
+  margin: 0px auto;
+  padding: 10px;
+}
+
+.sidebar-sns-links {
+  padding-left: 5px;
+  padding-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.sidebar-keywords {
+  margin-top: 10px;
+  border: solid #C2CBD3;
+  background: #fff;
+}
+
+.sidebar-keywords-h3 {
+  background: #a3c0da;
+  margin: 0px auto;
+  padding: 10px;
+}
+
+.sidebar-keywords__links li {
+  list-style: none;
+  margin-left: -35px;
+  padding-top: 10px;
+}
+
+@media (max-width: 480px) {
+  .sidebar-keywords__links li {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.sidebar-keywords__links li a {
+  margin-left: 15px;
+}
+
+.home-quiz__introduction {
+  padding: 5px 10px;
+}
+
+.home-quiz__introduction-h2 {
+  border-bottom: solid;
+}
+
+.home-quiz__introduction-h2-logo {
+  width: 10%;
+}
+
+.home-quiz__setting {
+  padding: 5px 10px;
+}
+
+.home-quiz__setting-h2 {
+  border-bottom: solid;
+}
+
+.home-quiz__setting-h2-logo {
+  width: 10%;
+}
+
+.home-quiz__ranking {
+  padding: 5px 10px;
+}
+
+.home-quiz__ranking-h2 {
+  border-bottom: solid;
+}
+
+.home-quiz__ranking-h2-logo {
+  width: 10%;
+}
+
+.home__notice {
+  padding: 5px 10px;
+}
+
+.home__notice-h2 {
+  border-bottom: solid;
+}
+
+.home__notice-h2-logo {
+  width: 10%;
+}
+
+.quiz-question-h2 {
+  border-bottom: solid;
+}
+
+.quiz-question__logo {
+  width: 10%;
+}
+
+.quiz-answer__list {
+  background: #c5e4ff;
+}
+
+.quiz-answer__list ul {
+  padding: 20px 10px;
+}
+
+.quiz-answer__list ul li {
+  list-style: none;
+  margin: 10px 0px;
+}
+
+.quiz-correct-h2 {
+  border-bottom: solid;
+}
+
+.quiz-correct__logo {
+  width: 10%;
+}
+
+.quiz-correct-answer {
+  width: 10%;
+}
+
+.quiz-commentary-h2 {
+  border-bottom: solid;
+}
+
+.quiz-commentary__logo {
+  width: 10%;
+}
+
+.quiz-commentary__text {
+  padding: 20px 20px;
+}
